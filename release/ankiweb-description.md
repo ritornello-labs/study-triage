@@ -21,6 +21,12 @@ Notes:
 
 Requires Anki 2.1.55 or newer.
 
-<img src="https://raw.githubusercontent.com/ritornello-labs/study-triage/main/docs/study-triage-workbench.png" alt="Study Triage deck menu screenshot">
+![Animated Study Triage deck-menu tour](https://ritornello.dev/media/ankiweb/2026-07-30/study-triage/preview.gif)
+
+<img src="https://ritornello.dev/media/ankiweb/2026-07-30/study-triage/study-triage-workbench.png" alt="Study Triage deck menu screenshot">
+
+![Study Triage's explicit deck-level actions](https://ritornello.dev/media/ankiweb/2026-07-30/study-triage/gallery-02.png)
+
+[Watch the full Study Triage preview (MP4)](https://ritornello.dev/media/ankiweb/2026-07-30/study-triage/demo.mp4)
 
 Source and issue tracker: [https://github.com/ritornello-labs/study-triage](https://github.com/ritornello-labs/study-triage)

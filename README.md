@@ -8,6 +8,9 @@ Study Triage is an Anki add-on that adds quick triage actions for days when you 
 
 ![Study Triage deck browser screenshot](docs/study-triage-workbench.png)
 
+[Animated tour](https://ritornello.dev/media/ankiweb/2026-07-30/study-triage/preview.gif)
+· [MP4 video](https://ritornello.dev/media/ankiweb/2026-07-30/study-triage/demo.mp4)
+
 ## What it does
 
 Use this on tired days when you want to do reviews only.
