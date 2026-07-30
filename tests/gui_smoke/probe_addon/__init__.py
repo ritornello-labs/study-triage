@@ -29,6 +29,8 @@ EXPECTED_ACTIONS = [
     "Answer Due Cards as Good",
     "Answer Due Cards as Easy",
 ]
+MEDIA_START_DELAY_MS = int(os.environ.get("ANKI_ADDON_WORKBENCH_MEDIA_START_DELAY_MS", "500"))
+MEDIA_MENU_HOLD_MS = int(os.environ.get("ANKI_ADDON_WORKBENCH_MEDIA_MENU_HOLD_MS", "100"))
 
 
 def _normal_text(text: str) -> str:
@@ -186,7 +188,7 @@ def _click_menu_action(menu: QMenu, action_label: str) -> None:
     action = _find_qaction(menu, action_label)
     menu.adjustSize()
     menu.popup(mw.mapToGlobal(QPoint(80, 80)))
-    _process_events(100)
+    _process_events(MEDIA_MENU_HOLD_MS)
 
     rect = menu.actionGeometry(action)
     if not rect.isValid():
@@ -483,7 +485,7 @@ def _run_and_quit() -> None:
 
 
 def _schedule_smoke() -> None:
-    QTimer.singleShot(500, _run_and_quit)
+    QTimer.singleShot(MEDIA_START_DELAY_MS, _run_and_quit)
 
 
 gui_hooks.main_window_did_init.append(_schedule_smoke)
