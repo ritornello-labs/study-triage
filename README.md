@@ -6,7 +6,9 @@
 
 Study Triage is an Anki add-on that adds quick triage actions for days when you need to reduce today's study load.
 
-![Study Triage deck browser screenshot](docs/study-triage-workbench.png)
+[![Open a deck's triage actions and set new cards to zero](https://ritornello.dev/media/ankiweb/2026-07-31-v2/study-triage/preview.gif)](https://ritornello.dev/media/ankiweb/2026-07-31-v2/study-triage/demo.mp4)
+
+[Browse the full media gallery](https://ritornello.dev/#study-triage).
 
 ## What it does
 
