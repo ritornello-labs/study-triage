@@ -21,14 +21,4 @@ Notes:
 
 Requires Anki 2.1.55 or newer.
 
-![Real Study Triage deck action captured in Anki](https://ritornello.dev/media/ankiweb/2026-07-31/study-triage/preview.gif)
-
-![A populated deck selected for triage](https://ritornello.dev/media/ankiweb/2026-07-31/study-triage/gallery-01.png)
-
-![Study Triage's explicit deck-level actions](https://ritornello.dev/media/ankiweb/2026-07-31/study-triage/gallery-02.png)
-
-![The deck after today's new-card limit is changed](https://ritornello.dev/media/ankiweb/2026-07-31/study-triage/gallery-03.png)
-
-[Watch the full Study Triage interaction (MP4)](https://ritornello.dev/media/ankiweb/2026-07-31/study-triage/demo.mp4)
-
 Source and issue tracker: [https://github.com/ritornello-labs/study-triage](https://github.com/ritornello-labs/study-triage)
