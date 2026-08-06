@@ -2,11 +2,11 @@ Study Triage adds quick triage actions for days when you need to reduce today's 
 
 ## See it in Anki
 
-![New cards spread across a crowded deck tree](https://ritornello.dev/media/ankiweb/2026-08-05-v3/study-triage/gallery-01.png)
+![New cards spread across a crowded deck tree](https://ritornello.dev/media/ankiweb/2026-08-06-v4/study-triage/gallery-01.png)
 
-![The same deck tree muted after setting today's new cards to zero](https://ritornello.dev/media/ankiweb/2026-08-05-v3/study-triage/gallery-02.png)
+![The same deck tree muted after setting today's new cards to zero](https://ritornello.dev/media/ankiweb/2026-08-06-v4/study-triage/gallery-02.png)
 
-[Full-resolution MP4](https://ritornello.dev/media/ankiweb/2026-08-05-v3/study-triage/demo.mp4)
+[2-second full-resolution MP4](https://ritornello.dev/media/ankiweb/2026-08-06-v4/study-triage/demo.mp4)
 
 Use it when you want to keep reviews moving but avoid adding more new cards, or when you need to quickly answer a batch of due cards.
 
