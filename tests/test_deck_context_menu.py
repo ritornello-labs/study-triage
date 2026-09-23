@@ -3,7 +3,7 @@ from __future__ import annotations
 import importlib.util
 import unittest
 from pathlib import Path
-from types import ModuleType
+from types import ModuleType, SimpleNamespace
 
 
 def _load_addon_module() -> ModuleType:
@@ -18,6 +18,18 @@ def _load_addon_module() -> ModuleType:
 
 
 class DeckContextMenuTest(unittest.TestCase):
+    def test_refresh_main_window_rerenders_deck_browser(self) -> None:
+        addon = _load_addon_module()
+        calls: list[str] = []
+        addon.mw = SimpleNamespace(
+            reset=lambda: calls.append("reset"),
+            deckBrowser=SimpleNamespace(refresh=lambda: calls.append("refresh")),
+        )
+
+        addon._refresh_main_window()
+
+        self.assertEqual(calls, ["reset", "refresh"])
+
     def test_deck_context_menu_js_sends_deck_specific_message(self) -> None:
         addon = _load_addon_module()
 

@@ -1647,6 +1647,20 @@ def _refresh_main_window() -> None:
     except Exception:
         pass
 
+    # `mw.reset()` emits Anki's legacy reset hooks, but the deck browser may
+    # keep its existing HTML when Anki is already on the Decks screen.  The
+    # Today-only limits are persisted correctly in that case, while the blue
+    # new-card counts remain visibly stale until the user leaves and returns
+    # to the screen.  Refresh the deck browser explicitly so triage actions
+    # show their result immediately.
+    deck_browser = getattr(mw, "deckBrowser", None)
+    refresh = getattr(deck_browser, "refresh", None)
+    if callable(refresh):
+        try:
+            refresh()
+        except Exception:
+            pass
+
 
 def _progress_start(label: str, total: int) -> None:
     progress = getattr(mw, "progress", None) if mw is not None else None
