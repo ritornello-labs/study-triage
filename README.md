@@ -143,3 +143,5 @@ active too: AnkiWeb's
 [account-removal article](https://anki.tenderapp.com/kb/anki-ecosystem/ankiweb-account-removal)
 says account data may be deleted after 6 months without account access or sync,
 even though shared add-ons are not subject to the usual data expiry.
+
+Support continued development: [ritornello.dev/support](https://ritornello.dev/support).
