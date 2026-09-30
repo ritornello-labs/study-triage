@@ -1,11 +1,11 @@
 {
   "package": "study_triage",
   "name": "Study Triage",
-  "mod": 1784847506,
+  "mod": 1790805091,
   "min_point_version": 55,
   "max_point_version": 250902,
   "author": "Elvis Sik",
-  "human_version": "0.3.13",
+  "human_version": "0.3.14",
   "description": "Adds quick actions to zero new cards or answer due cards as Good/Easy for a collection or selected deck.",
   "homepage": "https://github.com/ritornello-labs/study-triage"
 }

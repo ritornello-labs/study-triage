@@ -9,6 +9,10 @@ from pathlib import Path
 from typing import Any
 
 from aqt import gui_hooks, mw
+import aqt.update
+
+# Keep release checks independent of network update notices in disposable Anki.
+aqt.update.check_for_update = lambda: None
 from aqt.qt import QApplication, QMenu, QPoint, QRect, QTimer, Qt, QToolTip
 
 try:

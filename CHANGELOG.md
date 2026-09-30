@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.14 - 2026-09-30
+
+- Refresh deck-browser counts immediately after a triage action.
+- Show the real populated-tree workflow and link optional support through ritornello.dev/support.
+
 ## 0.3.13 - 2026-07-23
 
 - Fix Good/Easy batches leaving a few due cards behind with

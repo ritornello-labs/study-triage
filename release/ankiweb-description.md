@@ -30,3 +30,6 @@ Notes:
 Requires Anki 2.1.55 or newer.
 
 Source and issue tracker: [https://github.com/ritornello-labs/study-triage](https://github.com/ritornello-labs/study-triage)
+
+
+Support continued development: [ritornello.dev/support](https://ritornello.dev/support).
