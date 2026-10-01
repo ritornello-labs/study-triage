@@ -1,3 +1,7 @@
+<img src="https://ritornello.dev/media/brand/listing-banner-v1.png" alt="Ritornello" width="700">
+
+[Explore all Ritornello decks and add-ons](https://ritornello.dev/).
+
 Study Triage adds quick triage actions for days when you need to reduce today's Anki workload.
 
 ## See it in Anki
