@@ -8,8 +8,6 @@ Study Triage adds quick triage actions for days when you need to reduce today's 
 
 ![Mute new cards across a crowded deck tree for today; counts refresh to zero](https://ritornello.dev/media/ankiweb/2026-09-30-v2/study-triage/preview.gif)
 
-[5.3-second full-resolution MP4](https://ritornello.dev/media/ankiweb/2026-09-30-v2/study-triage/demo.mp4)
-
 Use it when you want to keep reviews moving but avoid adding more new cards, or when you need to quickly answer a batch of due cards.
 
 Actions:
@@ -32,6 +30,5 @@ Notes:
 Requires Anki 2.1.55 or newer.
 
 Source and issue tracker: [https://github.com/ritornello-labs/study-triage](https://github.com/ritornello-labs/study-triage)
-
 
 Support continued development: [ritornello.dev/support](https://ritornello.dev/support).
