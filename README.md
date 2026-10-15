@@ -1,5 +1,7 @@
 # Study Triage
 
+[Explore all Ritornello decks and add-ons](https://ritornello.dev/).
+
 [![AnkiWeb add-on 1850611434](https://img.shields.io/badge/AnkiWeb-1850611434-2f80ed)](https://ankiweb.net/shared/info/1850611434)
 [![Source on GitHub](https://img.shields.io/badge/source-GitHub-24292f)](https://github.com/ritornello-labs/study-triage)
 ![Anki 2.1.55+](https://img.shields.io/badge/Anki-%3E%3D2.1.55-4caf50)
@@ -59,6 +61,10 @@ Requires Anki 2.1.55 or newer.
 4. Run `Tools -> Study Triage`, use the deck cog menu, or right-click a deck name whenever you need to triage a deck.
 
 AnkiWeb page: <https://ankiweb.net/shared/info/1850611434>
+
+### From a GitHub release
+
+Download the `.ankiaddon` from the [latest tagged release](https://github.com/ritornello-labs/study-triage/releases/latest), then use **Tools → Add-ons → Install from file…**. File installs do not receive AnkiWeb automatic updates.
 
 ### From Source
 
